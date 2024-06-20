@@ -2,6 +2,8 @@
 
 In 2912, data science skills are needed to solve a cosmic mystery involving the Spaceship Titanic, an interstellar passenger liner with 13,000 passengers. The ship collided with a spacetime anomaly, causing almost half of its passengers to be transported to an alternate dimension, similar to its predecessor 1000 years ago.
 
+Task- To predict whether a passenger was transported to an alternate dimension during the Spaceship Titanic's collision with the spacetime anomaly.
+
 Training data: Personal records for about two-thirds (~8700) of the passengers, are used as training data. Passenger details of the following features are given in the train.csv file.
 
 <ul>
@@ -16,3 +18,5 @@ RoomService, FoodCourt, ShoppingMall, Spa, VRDeck - Amount the passenger has bil
 Name - The first and last names of the passenger.
 Transported - Whether the passenger was transported to another dimension. This is the target, the column you are trying to predict.
 </ul>
+
+Test data - Personal records for the remaining one-third (~4300) of the passengers are given in test.csv file.
