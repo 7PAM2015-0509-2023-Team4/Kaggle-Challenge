@@ -47,6 +47,9 @@ Transported - Whether the passenger was transported to another dimension. This i
 <li>All numerical features were normalised using standard scaling. All categorical features were encoded.</li>
 <li>Binary encoding was used to encode the categorical features of binary in nature and one hot encoding is used for categorical features with more than two states.</li>
 </ul>
-Our Best Model: 
-•	GBM 1 AutoML 1 20240712 214606 (A Gradient Boosting Machine model)
-•	Accuracy on the Kaggle test data: 0.7994 (¬0.80)
+
+<b>Our Best Model:</b>
+<ul>
+<li> GBM 1 AutoML 1 20240712 214606 (A Gradient Boosting Machine model)</li>
+<li> Accuracy on the Kaggle test data: 0.7994 (¬0.80) </li>
+</ul>>
