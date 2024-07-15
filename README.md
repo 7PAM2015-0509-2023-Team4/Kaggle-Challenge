@@ -38,3 +38,6 @@ Missing value imputation:
 <li> The mode and median were used to impute the categorical and numerical features respectively. </li>
 <li> We subset the train data based on combinations of HomePlanet and Destination features to effectively use mode and median for missing value imputation for categorical and numerical features respectively.</li>
 </ul>
+Feature encoding
+•	All numerical features were normalised using standard scaling. All categorical features were encoded.
+•	Binary encoding was used to encode the categorical features of binary in nature and one hot encoding is used for categorical features with more than two states.
