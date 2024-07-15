@@ -33,10 +33,10 @@ Transported - Whether the passenger was transported to another dimension. This i
 <li> Then we split the Cain feature into Deck/Cabin_No and Side. Finally, we extracted Name_length from the Name feature. </li>
 </ul>
 
-<b> Visualing Missing Values in Training Data:</b>
+<b> Visualing Missing Values in Training Data:</b> <br>
 <img src="Image_02.png" alt="Example Image" width="400" height="300">
 
-<b> Visualing Missing Values in Training Data:</b>
+<b> Visualing Missing Values in Test Data:</b> <br>
 <img src="Image_03.png" alt="Example Image" width="400" height="300">
 
 <b>Missing Values Table:</b>
