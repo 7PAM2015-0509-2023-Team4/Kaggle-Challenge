@@ -32,15 +32,13 @@ Transported - Whether the passenger was transported to another dimension. This i
 <li> Group_Travel indicates whether each passenger travelled as a group or not and Travel_Members indicates the number of members each person travelled with. </li>
 <li> Then we split the Cain feature into Deck/Cabin_No and Side. Finally, we extracted Name_length from the Name feature. </li>
 </ul>
-
-<b>Feature transformations and scaling:</b><ul>
-<li>The log transform was applied to remove the skewness of the below numerical features: ’RoomService’, ’FoodCourt’, ’ShoppingMall’, ’Spa’, ’VRDeck’</li>
-</ul>
-
 <b>Missing value imputation</b>: 
 <ul>
 <li> The mode and median were used to impute the categorical and numerical features respectively. </li>
 <li> We subset the train data based on combinations of HomePlanet and Destination features to effectively use mode and median for missing value imputation for categorical and numerical features respectively.</li>
+</ul>
+<b>Feature transformations and scaling:</b><ul>
+<li>The log transform was applied to remove the skewness of the below numerical features: ’RoomService’, ’FoodCourt’, ’ShoppingMall’, ’Spa’, ’VRDeck’</li>
 </ul>
 <b>Feature encoding:</b>
 <ul>
