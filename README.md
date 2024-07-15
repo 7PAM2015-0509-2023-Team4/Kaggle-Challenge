@@ -2,7 +2,7 @@
 
 In 2912, data science skills are needed to solve a cosmic mystery involving the Spaceship Titanic, an interstellar passenger liner with 13,000 passengers. The ship collided with a spacetime anomaly, causing almost half of its passengers to be transported to an alternate dimension, similar to its predecessor 1000 years ago.
 
-Task: To predict whether a passenger was transported to an alternate dimension during the Spaceship Titanic's collision with the spacetime anomaly.
+<b>Task</b>: To predict whether a passenger was transported to an alternate dimension during the Spaceship Titanic's collision with the spacetime anomaly.
 
 <div align="center">
 <img src="Image_01.jpg" alt="" width="400" height="300">
