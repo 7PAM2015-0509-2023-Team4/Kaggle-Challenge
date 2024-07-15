@@ -32,3 +32,7 @@ About the new features:
 Feature transformations and scaling:<ul>
 <li>The log transform was applied to remove the skewness of the below numerical features: ’RoomService’, ’FoodCourt’, ’ShoppingMall’, ’Spa’, ’VRDeck’</li>
 </ul>
+
+Missing value imputation 
+•	The mode and median were used to impute the categorical and numerical features respectively. 
+•	We subset the train data based on combinations of HomePlanet and Destination features to effectively use mode and median for missing value imputation for categorical and numerical features respectively.
