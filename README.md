@@ -35,6 +35,6 @@ Feature transformations and scaling:<ul>
 
 Missing value imputation: 
 <ul>
-<li>•	The mode and median were used to impute the categorical and numerical features respectively. </li>
-<li>•	We subset the train data based on combinations of HomePlanet and Destination features to effectively use mode and median for missing value imputation for categorical and numerical features respectively.</li>
+<li> The mode and median were used to impute the categorical and numerical features respectively. </li>
+<li> We subset the train data based on combinations of HomePlanet and Destination features to effectively use mode and median for missing value imputation for categorical and numerical features respectively.</li>
 </ul>
