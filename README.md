@@ -32,6 +32,31 @@ Transported - Whether the passenger was transported to another dimension. This i
 <li> Group_Travel indicates whether each passenger travelled as a group or not and Travel_Members indicates the number of members each person travelled with. </li>
 <li> Then we split the Cain feature into Deck/Cabin_No and Side. Finally, we extracted Name_length from the Name feature. </li>
 </ul>
+<b>Missing Values:</b>
+
+| Feature         | Train Data |          | Test Data |          |
+|-----------------|------------|----------|-----------|----------|
+|                 | Missing Values | Percentage | Missing Values | Percentage |
+| PassengerId     | 0          | 0        | 0         | 0        |
+| HomePlanet      | 201        | 2.31     | 87        | 2.03     |
+| CryoSleep       | 217        | 2.5      | 93        | 2.17     |
+| Destination     | 182        | 2.09     | 92        | 2.15     |
+| Age             | 179        | 2.06     | 91        | 2.13     |
+| VIP             | 203        | 2.34     | 93        | 2.17     |
+| RoomService     | 181        | 2.08     | 82        | 1.92     |
+| FoodCourt       | 183        | 2.11     | 106       | 2.48     |
+| ShoppingMall    | 208        | 2.39     | 98        | 2.29     |
+| Spa             | 183        | 2.11     | 101       | 2.36     |
+| VRDeck          | 188        | 2.16     | 80        | 1.87     |
+| Transported     | 0          | 0        | 0         | 0        |
+| Group_Travel    | 0          | 0        | 0         | 0        |
+| Travel_Members  | 0          | 0        | 0         | 0        |
+| Deck            | 199        | 2.29     | 100       | 2.34     |
+| Cabin_No        | 199        | 2.29     | 100       | 2.34     |
+| Side            | 199        | 2.29     | 100       | 2.34     |
+| Name_length     | 200        | 2.3      | 94        | 2.2      |
+
+
 <b>Missing value imputation</b>: 
 <ul>
 <li> The mode and median were used to impute the categorical and numerical features respectively. </li>
