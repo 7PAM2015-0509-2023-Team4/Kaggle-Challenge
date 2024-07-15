@@ -4,7 +4,7 @@ In 2912, data science skills are needed to solve a cosmic mystery involving the 
 
 Task: To predict whether a passenger was transported to an alternate dimension during the Spaceship Titanic's collision with the spacetime anomaly.
 
-<img src="Image_01.jpg" alt="" width="800" height="300">
+<img src="Image_01.jpg" alt="" width="600" height="300">
 
 
 Training data: Personal records for about two-thirds (~8700) of the passengers, are used as training data. Passenger details of the following features are given in the train.csv file.
