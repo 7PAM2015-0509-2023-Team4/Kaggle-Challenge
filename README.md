@@ -32,7 +32,8 @@ Transported - Whether the passenger was transported to another dimension. This i
 <li> Group_Travel indicates whether each passenger travelled as a group or not and Travel_Members indicates the number of members each person travelled with. </li>
 <li> Then we split the Cain feature into Deck/Cabin_No and Side. Finally, we extracted Name_length from the Name feature. </li>
 </ul>
-<b>Missing Values:</b>
+
+<b>All Missing Values Table:</b>
 
 | Feature         | Train Data |          | Test Data |          |
 |-----------------|------------|----------|-----------|----------|
