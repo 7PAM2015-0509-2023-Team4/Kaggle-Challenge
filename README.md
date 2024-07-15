@@ -81,7 +81,7 @@ Options used for ‘include_algos’ parameter :
 <li>Deep Learning: Neural Networks 
 <li>Stacked Ensemble: Combines multiple models
 </ul>
-Experimented with max_models =20 and max_runtime_secs=300
+Experimented with max_models =20 and max_runtime_secs=300<br><br>
 <b>Our Best Model:</b>
 <ul>
 <li>GBM 1 AutoML 1 20240712 214606 (A Gradient Boosting Machine model)</li>
