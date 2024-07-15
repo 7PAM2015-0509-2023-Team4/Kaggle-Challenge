@@ -34,10 +34,10 @@ Transported - Whether the passenger was transported to another dimension. This i
 </ul>
 
 <b> Visualing Missing Values in Training Data:</b> <br>
-<img src="Image_02.png" alt="Example Image" width="400" height="300">
+<img src="Image_02.png" alt="Train Data Missing Values" width="500" height="400">
 
 <b> Visualing Missing Values in Test Data:</b> <br>
-<img src="Image_03.png" alt="Example Image" width="400" height="300">
+<img src="Image_03.png" alt="Test Data Missing Values" width="500" height="400">
 
 <b>Missing Values Table:</b>
 
