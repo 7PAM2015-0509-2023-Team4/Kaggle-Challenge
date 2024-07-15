@@ -20,3 +20,9 @@ Transported - Whether the passenger was transported to another dimension. This i
 </ul>
 
 Test data - Personal records for the remaining one-third (~4300) of the passengers are given in test.csv file.
+
+About the new features:
+•	We identified 6 numerical features, 7 categorical features, and one target variable. 
+•	We extracted new features such as Group_Travel and Travel_Members from passengerID feature.
+•	 Group_Travel indicates whether each passenger travelled as a group or not and Travel_Members indicates the number of members each person travelled with. 
+•	Then we split the Cain feature into Deck/Cabin_No and Side. Finally, we extracted Name_length from the Name feature.
