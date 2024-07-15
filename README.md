@@ -40,6 +40,6 @@ Missing value imputation:
 </ul>
 Feature encoding:
 <ul>
-•	<li>All numerical features were normalised using standard scaling. All categorical features were encoded.</li>
-•	<li>Binary encoding was used to encode the categorical features of binary in nature and one hot encoding is used for categorical features with more than two states.</li>
+<li>All numerical features were normalised using standard scaling. All categorical features were encoded.</li>
+<li>Binary encoding was used to encode the categorical features of binary in nature and one hot encoding is used for categorical features with more than two states.</li>
 </ul>
