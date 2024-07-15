@@ -70,6 +70,18 @@ Transported - Whether the passenger was transported to another dimension. This i
 <li>All numerical features were normalised using standard scaling. All categorical features were encoded.</li>
 <li>Binary encoding was used to encode the categorical features of binary in nature and one hot encoding is used for categorical features with more than two states.</li>
 </ul>
+<b>Picking the best model:</b>
+<ul>
+<li>H2OAutoML was used to obtain the machine learning models. The following parameters were used.
+Options used for ‘include_algos’ parameter : 
+<li>GLM: Generalized Linear Models, 
+<li>DRF: Distributed Random Forest, 
+<li>XGBoost: eXtreme Gradient Boosting,
+<li>GBM: Gradient Boosting Machine, 
+<li>Deep Learning: Neural Networks 
+<li>Stacked Ensemble: Combines multiple models
+</ul>
+Experimented with max_models =20 and max_runtime_secs=300
 <b>Our Best Model:</b>
 <ul>
 <li>GBM 1 AutoML 1 20240712 214606 (A Gradient Boosting Machine model)</li>
