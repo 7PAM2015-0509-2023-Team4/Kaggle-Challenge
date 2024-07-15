@@ -33,7 +33,7 @@ Transported - Whether the passenger was transported to another dimension. This i
 <li> Then we split the Cain feature into Deck/Cabin_No and Side. Finally, we extracted Name_length from the Name feature. </li>
 </ul>
 
-<b>All Missing Values Table:</b>
+<b>Missing Values Table:</b>
 
 | Feature         | Train Data |          | Test Data |          |
 |-----------------|------------|----------|-----------|----------|
