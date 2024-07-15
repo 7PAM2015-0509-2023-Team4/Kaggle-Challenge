@@ -8,7 +8,7 @@ In 2912, data science skills are needed to solve a cosmic mystery involving the 
 <img src="Image_01.jpg" alt="" width="400" height="300">
 </div>
 
-Training data: Personal records for about two-thirds (~8700) of the passengers, are used as training data. Passenger details of the following features are given in the train.csv file.
+<b>Training data:</b> Personal records for about two-thirds (~8700) of the passengers, are used as training data. Passenger details of the following features are given in the train.csv file.
 
 <ul>
 <li>PassengerId - A unique Id for each passenger. Each Id takes the form gggg_pp where gggg indicates a group the passenger is travelling with and pp is their number within the group. People in a group are often family members, but not always.</li>
@@ -23,9 +23,9 @@ Name - The first and last names of the passenger.
 Transported - Whether the passenger was transported to another dimension. This is the target, the column you are trying to predict.
 </ul>
 
-Test data - Personal records for the remaining one-third (~4300) of the passengers are given in test.csv file.
+<b>Test data:</b> Personal records for the remaining one-third (~4300) of the passengers are given in test.csv file.
 
-About the new features: 
+<b>About the new features: </b>
 <ul>
 <li> We identified 6 numerical features, 7 categorical features, and one target variable. </li>
 <li> We extracted new features such as Group_Travel and Travel_Members from passengerID feature. </li>
@@ -33,16 +33,16 @@ About the new features:
 <li> Then we split the Cain feature into Deck/Cabin_No and Side. Finally, we extracted Name_length from the Name feature. </li>
 </ul>
 
-Feature transformations and scaling:<ul>
+<b>Feature transformations and scaling:</b><ul>
 <li>The log transform was applied to remove the skewness of the below numerical features: ’RoomService’, ’FoodCourt’, ’ShoppingMall’, ’Spa’, ’VRDeck’</li>
 </ul>
 
-Missing value imputation: 
+<b>Missing value imputation</b>: 
 <ul>
 <li> The mode and median were used to impute the categorical and numerical features respectively. </li>
 <li> We subset the train data based on combinations of HomePlanet and Destination features to effectively use mode and median for missing value imputation for categorical and numerical features respectively.</li>
 </ul>
-Feature encoding:
+<b>Feature encoding:</b>
 <ul>
 <li>All numerical features were normalised using standard scaling. All categorical features were encoded.</li>
 <li>Binary encoding was used to encode the categorical features of binary in nature and one hot encoding is used for categorical features with more than two states.</li>
